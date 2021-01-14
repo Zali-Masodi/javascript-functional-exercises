@@ -19,8 +19,11 @@ There are multiple folders where the exercises are located:
 - [Exercise 02](ex_02)
   - Topics:
     - spread operator
-    - 
-- [Exercise 03](ex_03)
+    - map function
+    - filter function
+    - slice
+    - reduce
+    - currying and partial application
 
 In these folders are multiple files, e.g. [training01.js](ex_01/training01.js).
 
@@ -28,10 +31,12 @@ Follow the instructions in these files and run these files to practice!
 
 ## To run a file
 
-To run a file, preferably do into your Visual Studio Terminal and do: 
+To run a file, preferably do it in your Visual Studio Terminal: 
 
 ```javascript
-npx babel-node ex_01/trainings01.js
+npx babel-node ex_01/training01.js
 ```
 
-You can do this to run all the other exercises!
+![npx run](resources/npx-run.gif)
+
+You can do this to run all the other exercises as well. 
