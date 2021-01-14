@@ -1,3 +1,5 @@
+// functions and arrow functions
+
 // This is a normal javascript function
 function myFunction(arg1, arg2) {
     // function body

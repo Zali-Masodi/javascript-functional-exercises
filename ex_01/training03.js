@@ -1,5 +1,4 @@
 // functions as data
-// 
 
 const yearNow = new Date().getFullYear();
 

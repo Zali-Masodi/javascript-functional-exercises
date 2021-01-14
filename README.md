@@ -8,7 +8,18 @@
 There are multiple folders where the exercises are located:
 
 - [Exercise 01](ex_01)
+  - Topics:
+    - constants 
+    - functions and arrow functions
+    - functions as data
+    - functions as arguments
+    - functions as return value
+    - closures
+    - higher order functions
 - [Exercise 02](ex_02)
+  - Topics:
+    - spread operator
+    - 
 - [Exercise 03](ex_03)
 
 In these folders are multiple files, e.g. [training01.js](ex_01/training01.js).
