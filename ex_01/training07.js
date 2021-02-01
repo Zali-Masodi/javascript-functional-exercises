@@ -23,13 +23,13 @@ const divideWithCheck = (x, y) => {
 }
 
 // TODO 3. step: uncomment the next line, see what happens
-console.log(divideWithCheck(4,0)); // ???
+// console.log(divideWithCheck(4,0)); // ???
 
 
 // This is unstable and unclear behaviour, I want to prevent dividing by zero
 // So now do NOT put the logic in the divide() function but 
 // separate simply the logic from the "higher order function"
-// ... is 
+// ... is the spread operator. 
 const secondArgumentIsntZero = func =>
     (...args) => {
         if (args[1] === 0) {

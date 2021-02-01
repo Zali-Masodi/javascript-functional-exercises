@@ -3,7 +3,7 @@
 - First step is to clone this repository!
 - Go to the directory
 - In the Terminal do: `npm install` to install all necessary packages.
-- You can ignore any deprecation notifications for now. 
+- You can ignore any deprecation notifications for now.
 
 There are multiple folders where the exercises are located:
 
@@ -24,6 +24,7 @@ There are multiple folders where the exercises are located:
     - slice
     - reduce
     - currying and partial application
+    - consume a REST-API with fetch
 
 In these folders are multiple files, e.g. [training01.js](ex_01/training01.js).
 
@@ -33,10 +34,12 @@ Follow the instructions in these files and run these files to practice!
 
 To run a file, preferably do it in your Visual Studio Terminal: 
 
-```javascript
+```javascriptcle
 npx babel-node ex_01/training01.js
 ```
 
 ![npx run](resources/npx-run.gif)
 
-You can do this to run all the other exercises as well. 
+You can do this to run all the other exercises as well.
+
+If you are finished with the exercises, start with the assignments. 
