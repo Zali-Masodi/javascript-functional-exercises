@@ -8,6 +8,3 @@ const salary = 1000;
 // Just run the code
 // Is it working? What is the output and why?
 // Fix it!!! Hint: make a new constant.
-
-
-

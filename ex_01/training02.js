@@ -55,6 +55,7 @@ const myArrowFunction = (arg1, arg2) => ({
 
 
 // TODO: now it is your turn, see the following function and transform it to an arrow function:
+// you can make a copy below if you like and give it a separate name.
 const getPresidentNormal = function(presidentId) {
     return {
         "id" : presidentId,
