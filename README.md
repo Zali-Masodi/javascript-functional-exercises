@@ -1,6 +1,6 @@
 # Exercises for functional programming with Javascript course
 
-- First step is to clone this repository!
+- First step is to **clone** this repository to your local machine!
 - Go to the directory
 - In the Terminal do: `npm install` to install all necessary packages.
 - You can ignore any deprecation notifications for now.
