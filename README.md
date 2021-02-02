@@ -28,13 +28,13 @@ There are multiple folders where the exercises are located:
 
 In these folders are multiple files, e.g. [training01.js](ex_01/training01.js).
 
-Follow the instructions in these files and run these files to practice!
+Follow the instructions in these files (instructions are written in the comments) and run these files to practice!
 
 ## To run a file
 
-To run a file, preferably do it in your Visual Studio Terminal: 
+To run a file, preferably do it in your Visual Studio integrated Terminal (Menu: View -> Terminal):
 
-```javascriptcle
+```javascript
 npx babel-node ex_01/training01.js
 ```
 
