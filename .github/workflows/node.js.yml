@@ -26,4 +26,17 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npx babel-node ex_01/training{01,02,03,04,05,06,07}.js
+    - run: npx babel-node ex_01/training01.js
+    - run: npx babel-node ex_01/training02.js
+    - run: npx babel-node ex_01/training03.js
+    - run: npx babel-node ex_01/training04.js
+    - run: npx babel-node ex_01/training05.js
+    - run: npx babel-node ex_01/training06.js
+    - run: npx babel-node ex_01/training07.js
+    - run: npx babel-node ex_02/training01.js
+    - run: npx babel-node ex_02/training02.js
+    - run: npx babel-node ex_02/training03.js
+    - run: npx babel-node ex_02/training04.js
+    - run: npx babel-node ex_02/training05.js
+    - run: npx babel-node ex_02/training06.js
+    - run: npx babel-node ex_02/training07.js

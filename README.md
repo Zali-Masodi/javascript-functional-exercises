@@ -9,7 +9,7 @@ There are multiple folders where the exercises are located:
 
 - [Exercise 01](ex_01)
   - Topics:
-    - constants 
+    - constants
     - functions and arrow functions
     - functions as data
     - functions as arguments
