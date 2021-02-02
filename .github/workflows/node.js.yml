@@ -26,4 +26,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npx babel-node ex_01/training01.js
+    - run: npx babel-node ex_01/training{01,02,03,04,05,06,07}.js
