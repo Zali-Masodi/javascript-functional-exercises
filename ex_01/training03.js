@@ -16,7 +16,7 @@ const makeYounger = age => age - 10;
 // you look older because you smoke...
 const smokeAlot = age => age + 20;
 
-// TODO: 1. Step uncomment the following lines to let it run and see
+// TODO: 1. Step uncomment the following lines to let it run and see the result
 
 //const age = calcAge(trump.birth_year);
 //console.log(age);
