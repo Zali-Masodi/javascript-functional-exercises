@@ -9,6 +9,6 @@ const salary = 1000;
 // Is it working? What is the output and why?
 // Fix it!!! Hint: make a new constant.
 
-
+module.exports = salary;
 
 
