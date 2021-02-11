@@ -38,6 +38,12 @@ To run a file, preferably do it in your Visual Studio integrated Terminal (Menu:
 npx babel-node ex_01/training01.js
 ```
 
+Hint: If you have node.js >= 14 installed you do not need npx babel-node, just the following would also work:
+
+```javascript
+node ex_01/training01.js
+```
+
 ![npx run](resources/npx-run.gif)
 
 You can do this to run all the other exercises as well.
