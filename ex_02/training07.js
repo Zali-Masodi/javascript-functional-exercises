@@ -10,7 +10,7 @@
 // 2. clone somewhere the following url:
 // 3. git clone https://github.com/FontysVenlo/president-postgrest-restapi.git
 // 4. go into the directory: cd president-postgrest-restapi
-// 5. in the terminal type: docker-compose -d
+// 5. in the terminal type: docker-compose up -d
 // 6. type npx babel-node ex_02/training07.js
 
 const fetch = require('node-fetch');
