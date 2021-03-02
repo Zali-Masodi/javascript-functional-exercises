@@ -8,7 +8,7 @@ function myFunction(arg1, arg2) {
 
 // call the function
 // TODO 1.step: uncommment the following line, run the code, check the output in the console
-// myFunction('Grogu', 'Luke');
+ myFunction('Grogu', 'Luke');
 
 
 // Now a "normal" function, but assigned to a constant
@@ -21,7 +21,7 @@ const myOtherFunction = function (arg1, arg2) {
 const myOtherResult = myOtherFunction('Grogu', 'Luke Skywalker');
 
 // TODO 2.step: uncomment the following line - run it and see the output
-// console.log(myOtherResult);
+ console.log(myOtherResult);
 
 // lets go into arrow functions
 const add = (x, y) => x + y;
@@ -30,7 +30,7 @@ const add = (x, y) => x + y;
 const result = add(10, 20);
 
 // TODO 3.step: uncomment the following line - run it and see the output
-// console.log(result);
+ console.log(result);
 
 
 
@@ -69,14 +69,9 @@ const getPresidentNormal = function (presidentId) {
 };
 
 // TODO 4. step: uncomment the following line to see the output
-// console.log(getPresidentNormal(10));
+ console.log(getPresidentNormal(10));
 
 // TODO 5. step: now your turn => remove function(){} and make it an arrow => function!
-const getPresidentArrow = function (presidentId) {
-    return {
-        "id": presidentId,
-        "name": "TRUMP D J"
-    }
-};
+const getPresidentArrow = (pId) => ({"id": pId, "name": "Trump D J"});
 // uncomment the following line to see the output
-// console.log(getPresidentArrow(10));
+ console.log(getPresidentArrow(10));

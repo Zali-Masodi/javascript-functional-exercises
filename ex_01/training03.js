@@ -18,10 +18,10 @@ const smokeAlot = age => age + 20;
 
 // TODO: 1. Step uncomment the following lines to let it run and see the result
 
-//const age = calcAge(trump.birth_year);
-//console.log(age);
-//const madeYounger = makeYounger(age);
-//console.log(madeYounger);
+const age = calcAge(trump.birth_year);
+console.log(age);
+const madeYounger = makeYounger(age);
+console.log(madeYounger);
 
 
 // how can an functions array be handy? 
@@ -37,8 +37,7 @@ const functionsArray = [
 
 // TODO: 2. Step uncomment the following lines to see it running
 
-//var fakeAge = trump.birth_year;
+var fakeAge = trump.birth_year;
 
-//functionsArray.forEach(func => fakeAge = func(fakeAge));
-
-//console.log(fakeAge);
+functionsArray.forEach(func => fakeAge = func(fakeAge))
+console.log(fakeAge);
