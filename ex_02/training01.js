@@ -28,13 +28,13 @@ const election = {
 // Now lets combine the data easily with the spread operator 
 // TODO: 1. step - uncomment the following code and check the output
 
-// const trumpUpdated = {
-//     ...trump,
-//     hobbies: { ...hobbies },
-//     ...election,
-// }
+ const trumpUpdated = {
+     ...trump,
+     hobbies: { ...hobbies },
+     ...election,
+ }
 
-// console.log(trumpUpdated);
+ console.log(trumpUpdated);
 
 
 // Again let us enrich the data, now with his current (2021) wife

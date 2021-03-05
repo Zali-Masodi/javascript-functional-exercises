@@ -40,4 +40,6 @@ const functionsArray = [
 var fakeAge = trump.birth_year;
 
 functionsArray.forEach(func => fakeAge = func(fakeAge))
+
+console.log("______________");
 console.log(fakeAge);
